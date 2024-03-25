@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROF HOCKEY CAMP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script language="JavaScript"> 
+    function agepick()
+        {
+            var age=parseInt(prompt("How old are you?"));
+            if(age>=18)
+            {
+                alert("You may proceed");
+            }
+            else{
+                document.write("Too young to use our site. Any explicit content shall not be associated with us.<br>You must be 18+ to use our site.");
+                return false;
+            }
+        }
+        function mover()
+        {
+            confirm("Do you accept cookies?");
+            if(true)
+            {
+                alert("Thank You for your consent");
+            }
+            else
+            {
+                alert("You must accept cookies to proceed");
+            }
+        }
+    </script>
+</head>
+<body onload="agepick()">
+    <div class="menubar">
+        <ul>
+           <li class="active"><a href="home.html" target="_blank">Home</a></li>
+           <li  class="active"><a href="services.html" target="_blank">Services</a></li>
+           <li class="active"><a href="gallery.html" target="_blank">Gallery</a></li>
+           <li class="active"><a href="community.html" target="_blank">Community</a></li>
+           <li class="active"><a href="about.html" target="_blank">About us</a></li>
+        </ul>  
+    </div>
+    <div class="brief" onmouseover="mover()">
+    <p>PROF HOCKEY CAMP</p>
+    <h2>Dedicated towards client satisfaction and provision of high quality services.<br>
+        We are a new generation sports company committed to bringing out the best in <br>
+        players all over the world.
+    </h2>
+    </div>
+    <footer>
+    <marquee behavior="scroll" direction="right" scrollamount="slow">Use the menu bar to navigate through out site. Thank you</marquee>
+    </footer>
+</body>
+</html>

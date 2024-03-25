@@ -1,0 +1,85 @@
+*
+{
+    padding:0%;
+    margin:0%;
+}
+body
+{
+    background-image: url("wallpaper1.jpg");
+    background-size:cover;
+    background-position:center;
+    box-sizing: border-box;
+    background-repeat:no-repeat;
+    width:auto;
+    height:100vh;
+}
+.menu-bar
+{
+    padding:10px;
+    margin:20px;
+
+}
+.menu-bar, ul 
+{
+    display:inline-flex;
+}
+.menu-bar,ul,li
+{
+    list-style:none;
+    display:inline-block;
+    padding:10px;
+    margin: 20px;
+    margin-left:100px;
+    font-size:20px;
+    font-weight: bold;
+    font-family:verdana;
+    color:blue;
+}
+a
+{
+    text-decoration:none;
+}
+.menu-bar, ul, li:hover a
+{
+    text-decoration:wavy;
+    color:white;
+    cursor:pointer;
+    transition: 0.6s;
+}
+.active
+{
+    background-color: black;
+    border-radius: 30%;
+}
+.brief
+{
+    background-position: center;
+}
+.brief p
+{
+    margin-left:20%;
+    margin-top:20%;
+    font-weight:bold;
+    font-size:50px;
+    font-family:fantasy;
+    cursor:pointer;
+
+
+}
+.brief h2
+{
+    margin-left:20%;
+    font-weight:bold;
+    font-size:30px;
+    font-family:verdana;
+    cursor:pointer;
+}
+marquee
+{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana;
+    color: chartreuse;
+    padding-top:12%;
+    cursor:pointer;
+}
