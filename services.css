@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: dimgray;
+    margin: 10px;
+}
+.logo, img{
+    border-radius: 50%;
+    width:30%;
+    cursor:progress;
+    background: transparent;
+   
+}
+img
+{
+    box-shadow: 0px 0px 20px blue;
+}
+img:hover
+{
+    box-shadow: 0px 0px 20px green;
+    transition: 0.5s;
+}
+.search
+{
+    display: inline-flex;
+    margin-left: 40%;
+    margin-top: -40%;
+    cursor: pointer;
+}
+input[type="search"]
+{
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input[type="search"]:hover
+{
+    width:200px;
+    border:2px solid cyan;
+    transition:1s;
+    background: black;
+    color: white;
+    font-size:10px;
+    font-style: italic;
+
+}
+p
+{
+    font-size: 15px;
+    font-family: verdana;
+    font-weight: bold;
+}
+p:hover
+{
+    text-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+}
+input[type="button"]
+{
+    border-radius:20px;
+    width: 50px;
+    outline: white;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    font-family: verdana;
+    text-align: center;
+    border: 2px solid white;
+}
+input[type="button"]:hover
+{
+    border: 2px solid cyan;
+    transition: 1s;
+    color:aqua;
+    font-size: 15px;
+    width: 75px;
+}
+legend
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+}
+fieldset
+{
+    width:500px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 5px solid black;
+    font-size: 10px;
+    font-family: verdana;
+    font-family: bold;
+    padding: 10px;
+}
+input[type="submit"]
+{
+    border-radius: 20px;
+    width:40px;
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+}
+input[type="submit"]:hover
+{
+    width:75px;
+    transition: 0.5s;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px cyan;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services offered</title>
+    <link rel="stylesheet" href="services.css">
+    <script>
+        function welcome()
+        {
+            confirm("Are You happy to be here?")
+        }
+        function sp()
+        {
+            alert("Wait as we search for you requests.");
+        }
+        function apply()
+        {
+            alert("Applied successfully. Wait for response. Thank you")
+        }
+    </script>
+</head>
+<body onload="welcome()">
+    <div class="logo">
+        <img src="logo.jpg">
+    </div>
+    <div class="search">
+        <p>Search Here</p><br>
+        <input type="search" name="search" id="search" />
+        <input type="button" name="search" id="search" value="search" onclick="sp()"/>
+    </div>
+    <form name="israel" method="post" action="#"> 
+        <fieldset>
+            <legend>Sports</legend>
+            <pre>
+            <input type="radio"/>Field Hockey 
+
+            <input type="radio"/>Ice hockey
+
+            <input type="radio"/>Swimming
+
+            <input type="radio"/>Fishing
+
+            <input type="radio"/>Badminton
+
+            <input type="radio"/>Tennis
+
+            <input type="checkbox"/>Athletic<br>
+            <input type="submit" name="submit" id="submit" value="Apply" onclick="apply()"/>
+            </pre>
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
